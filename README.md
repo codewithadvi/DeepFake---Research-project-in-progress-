@@ -16,7 +16,7 @@ Models Used:
 
 # Report:
 
-RP_report_draft_DeepFake_detection.pdf: Draft of the research paper, covering methodology, results, and analysis.(to be made available soon)
+RP_report_draft_DeepFake_detection.pdf: Draft of the research paper, covering methodology, results, and analysis.(to be made available soon with updations)
 
 ⚙️# Technologies and Tools
 
