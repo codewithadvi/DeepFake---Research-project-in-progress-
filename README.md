@@ -3,6 +3,26 @@
 # Project Overview
 This project focuses on developing a DeepFake detection system using Convolutional Neural Networks (CNNs) and other deep learning models. The goal is to identify AI-generated or manipulated facial images and videos, which are increasingly used in misinformation, identity theft, and malicious activities.
 
+## Dataset Description
+
+The dataset was created by combining two publicly available datasets from Kaggle:
+
+- **140K Real and Fake Faces**
+- **Real and Fake Face Detection**
+
+This resulted in a balanced dataset consisting of 142,356 images (71,178 real and 71,178 fake). All images were resized to 224×224 pixels. Preprocessing steps included:
+
+- Contrast Limited Adaptive Histogram Equalization (CLAHE) for contrast enhancement.
+- Data augmentation (random shear, horizontal flips, and rotations).
+- The dataset was divided as follows:
+  - 80% training
+  - 10% validation
+  - 10% testing
+
+Relevant sources and discussions:
+- Real Faces Dataset: https://www.kaggle.com/c/deepfake-detection-challenge/discussion/122786  
+- 1 Million Fake Faces Dataset: https://www.kaggle.com/c/deepfake-detection-challenge/discussion/121173
+
 # Key Components
 
 Models Used:
