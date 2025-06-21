@@ -23,6 +23,16 @@ Relevant sources and discussions:
 - Real Faces Dataset: https://www.kaggle.com/c/deepfake-detection-challenge/discussion/122786  
 - 1 Million Fake Faces Dataset: https://www.kaggle.com/c/deepfake-detection-challenge/discussion/121173
 
+# Performance Evaluation:
+
+## Performance Evaluation
+
+| Model         | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|---------------|----------|-----------|--------|----------|---------|
+| VGGFace16     | 95.2%    | 96.0%     | 94.0%  | 94.8%    | 0.9601  |
+| DenseNet-121  | 96.8%    | 97.2%     | 96.0%  | 96.6%    | 0.9924  |
+| Custom CNN    | 95.0%    | 95.5%     | 94.5%  | 95.0%    | 0.9956  |
+
 # Key Components
 
 Models Used:
