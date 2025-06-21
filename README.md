@@ -44,6 +44,21 @@ Models Used:
 - XAI_implementation.ipynb: Incorporates Explainable AI (XAI) techniques to interpret model predictions.
 - XAI_implementation_finalized_4epoch_3-3.ipynb: Finalized version with optimized XAI visualization for better interpretability.
 
+
+
+## Explainability and Interpretability
+
+To improve transparency and trust in model predictions, the following XAI techniques were implemented:
+
+### SHAP (SHapley Additive Explanations)
+- Highlights regions of the face that positively or negatively contribute to model decisions.
+
+### LIME (Local Interpretable Model-agnostic Explanations)
+- Provides interpretable local approximations around individual predictions.
+
+### Saliency, LRP, and Integrated Gradients
+- These techniques helped visualize spatial attention across facial regions and confirmed that critical features were consistently utilized during prediction.
+
 # Report:
 
 RP_report_draft_DeepFake_detection.pdf: Draft of the research paper, covering methodology, results, and analysis.(to be made available soon with updations)
