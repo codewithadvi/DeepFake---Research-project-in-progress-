@@ -1,4 +1,4 @@
-# DeepFake Detection using CNN Architectures
+# Exposing Digital Illusions: A Comparative Analysis of CNN Architectures for Deepfake Detection
 
 ## Project Overview
 
